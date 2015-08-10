@@ -3,7 +3,6 @@
 var http = require("http"), server,
 PORT = 6379,
  HOST = '127.0.0.1',
-//HOST = '125.212.209.198',
 redis_client = require("redis").createClient(PORT, HOST);
 
 var moment = require('moment');
